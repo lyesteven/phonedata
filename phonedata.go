@@ -46,8 +46,8 @@ var (
 	total_len, firstoffset int32
 )
 
-func init() {
-	dir := os.Getenv("PHONE_DATA_DIR")
+func Init(dir string) {
+	//dir := os.Getenv("PHONE_DATA_DIR")
 	if dir == "" {
 		_, fulleFilename, _, _ := runtime.Caller(0)
 		dir = path.Dir(fulleFilename)
