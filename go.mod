@@ -1,3 +1,3 @@
-module github.com/lysteven/phonedata
+module github.com/lyesteven/phonedata
 
 go 1.16
